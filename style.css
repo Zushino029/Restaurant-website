@@ -1,0 +1,174 @@
+* {
+    margin: 0; 
+    top: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body  {
+    background-image:url(./images/bg.jpg) ;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.nav-bars li {
+    text-decoration: none;
+    color: white;
+   list-style: none;
+   font-size: 25px;
+   display: inline-block;
+   font-family: 'Merienda', cursive;
+}
+.nav-bars a {
+    float: right;  
+    margin-right: 60px;
+    margin-top: 100px;
+    background:
+    linear-gradient(currentColor 0 0) 0 0,
+    linear-gradient(currentColor 0 0) 0 0,
+    linear-gradient(currentColor 0 0) 100% 100%,
+    linear-gradient(currentColor 0 0) 100% 100%;
+  background-size: var(--d, 0) 3px, 3px var(--d, 0);
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+.nav-bars a:hover {
+    --d: 100%;
+    padding: 4px 16px;
+    color: white;
+    
+}
+.upper h1{
+
+    color: white;
+    margin-top: 350px;
+    font-family: 'Merienda', cursive;
+    font-size: 35px;
+    font-weight: 700;
+}
+.upper {
+    margin-left: 100px;
+  
+}
+.upper p {
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    font-family: 'Merienda', cursive;
+}
+.upper a {
+    
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    border: solid 2px rgb(215, 190, 105);
+    padding: 4px 16px;
+    background-color: rgb(215, 190, 105);
+}
+.upper a:hover {
+    background-color: white;
+    color: black;
+    transition:  1s ease;
+}
+.about {
+    
+    background-color: black;
+    margin-top: 100px;
+  
+}
+.about p {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Spectral', serif;
+}
+
+.about .p2  {
+    
+        margin-top: 50px;
+    
+}
+.about .p3  {
+    
+    margin-top: 40px;
+
+}
+.about .p4  {
+     color: rgb(215, 190, 105);
+    margin-top: 40px;
+text-decoration: underline;
+}
+.about .p5  {
+    
+    margin-top: 50px;
+    
+}
+.Menu {
+   background-color: rgb(215, 190, 105);
+   font-family: 'Merienda', cursive;
+   font-weight: 700;
+}
+.Menu h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.middle {
+    background-image: url(./images/bg2.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.middle h2{
+    font-size: 35px;
+    color: white;
+    margin-left: 100px;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+}
+.middle p {
+    color: white;
+    font-size:20px;
+    font-family: 'Merienda', cursive;
+    margin-left: 100px;
+}
+
+.middle .pa1 {
+    margin-bottom: 50px;
+}
+.middle a {
+    
+    text-decoration: none;
+    color: white;
+    border: solid 2px white;
+    font-size: 25px;
+    padding: 8px 36px;
+    margin-left: 100px;
+}
+.middle a:hover {
+    background-color: white;
+    color: black;
+    transition: 1s ease;
+}
+
+.container div{
+    color: black; 
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container i {
+    color: black;
+    padding: 10px;
+}

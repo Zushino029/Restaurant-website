@@ -1,0 +1,121 @@
+* {
+    margin: 0; 
+    top: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body  {
+    background-image:url(./images/bg3.jpg) ;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.nav-bars .mn {
+    border: 2px solid white;
+    padding: 4px 16px;
+    color: black;
+    background-color: white;
+}
+.nav-bars li {
+    text-decoration: none;
+    color: white;
+   list-style: none;
+   font-size: 25px;
+   display: inline-block;
+   font-family: 'Merienda', cursive;
+}
+.nav-bars .mn li {
+    color: black;
+}
+
+
+
+.nav-bars  a {
+    float: right;  
+    margin-right: 60px;
+    margin-top: 20px;
+    background:
+    linear-gradient(currentColor 0 0) 0 0,
+    linear-gradient(currentColor 0 0) 0 0,
+    linear-gradient(currentColor 0 0) 100% 100%,
+    linear-gradient(currentColor 0 0) 100% 100%;
+  background-size: var(--d, 0) 3px, 3px var(--d, 0);
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+.nav-bars  a:hover {
+    --d: 100%;
+    padding: 4px 16px;
+    color: white;
+    
+}
+
+.container1 img {
+    width: 200px;
+    height: 200px;
+}
+.container2 img {
+    width: 200px;
+    height: 200px;
+}
+.container3 img {
+    width: 200px;
+    height: 200px;
+}
+
+.container1 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    font-family: 'Merienda', cursive;
+}
+.container2 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    font-family: 'Merienda', cursive;
+}
+.container3 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    font-family: 'Merienda', cursive;
+}
+
+.cotainer1 h2 {
+     font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.container4 div{
+    color: black; 
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.container4 {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container4 i {
+    color: black;
+    padding: 10px;
+}
